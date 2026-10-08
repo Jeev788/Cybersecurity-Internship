@@ -1,0 +1,3 @@
+import jwt from "jsonwebtoken";import User from "../models/User.js";
+export async function requireAuth(req,res,next){try{const t=req.cookies?.cg_token;if(!t)return res.status(401).json({message:"Please sign in to continue."});const p=jwt.verify(t,process.env.JWT_SECRET,{algorithms:["HS256"]});const u=await User.findById(p.sub).select("-passwordHash").lean();if(!u||!u.isActive)return res.status(401).json({message:"Your account is inactive or unavailable."});req.user=u;next()}catch{return res.status(401).json({message:"Your session has expired. Please sign in again."})}}
+export const requireRole=(...roles)=>(req,res,next)=>roles.includes(req.user?.role)?next():res.status(403).json({message:"You do not have permission for this area."});
