@@ -1,0 +1,35 @@
+CYBERRECON V2 – DEMO SCRIPT
+
+1. Start the application and open http://127.0.0.1:8000.
+
+2. Say:
+"CyberRecon is a web-based reconnaissance and defensive security analysis platform. It discovers an application's attack surface and then performs lightweight security checks."
+
+3. Enter an authorized target:
+https://example.com
+or your own authorized test website.
+
+4. Tick:
+"I confirm I own this website or have explicit permission to test it."
+
+5. Select page limit and crawl depth.
+
+6. Click Start Crawl & Scan.
+
+7. Point to Live Crawl Results:
+"Each row represents a page that the crawler successfully fetched. The crawler follows same-origin links, removes duplicates and respects the configured page/depth limits."
+
+8. Point to Discovered Endpoints:
+"This is the discovered attack surface. We can see the URLs, HTTP status, crawl depth and content type."
+
+9. Point to Security Findings:
+"After reconnaissance, the analyzer checks basic defensive controls. A finding contains evidence, severity and a recommended remediation."
+
+10. Download the JSON report.
+
+IMPORTANT:
+Do not describe this as "cloning Katana". Say:
+"I implemented an educational crawler inspired by the general reconnaissance workflow of Katana and extended it with a security-analysis dashboard."
+
+SAFETY:
+Only demonstrate against systems you own or have explicit authorization to test.

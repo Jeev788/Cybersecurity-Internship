@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CyberRecon V2 | Web Reconnaissance</title>
+<link rel="stylesheet" href="/static/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+  <div class="brand"><div class="brand-icon">CR</div><div><b>CyberRecon</b><span>Recon & Security Lab</span></div></div>
+  <div class="nav active">⌂ Dashboard</div><div class="nav">◉ Web Reconnaissance</div><div class="nav">⚠ Security Findings</div><div class="nav">▣ Reports</div>
+  <div class="lab-box"><b>AUTHORIZED TESTING</b><p>Use only websites you own or have explicit permission to test.</p><a href="/demo" target="_blank">Open Local Demo ↗</a></div>
+</aside>
+<main class="main">
+<header><div><div class="eyebrow">WEB APPLICATION RECONNAISSANCE</div><h1>Security Reconnaissance Dashboard</h1><p>Discover same-origin pages and endpoints, then perform lightweight defensive checks.</p></div><div class="status"><i></i> Scanner Ready</div></header>
+
+<section class="scanbar">
+ <div class="input-wrap"><span>⌕</span><input id="target" value="https://example.com" placeholder="https://your-authorized-site.com"></div>
+ <select id="maxPages"><option value="10">10 pages</option><option value="20" selected>20 pages</option><option value="50">50 pages</option></select>
+ <select id="maxDepth"><option value="1">Depth 1</option><option value="2" selected>Depth 2</option><option value="3">Depth 3</option></select>
+ <button id="scanBtn" onclick="startScan()">Start Crawl & Scan</button>
+</section>
+<label class="consent"><input type="checkbox" id="authorized"> I confirm I own this website or have explicit permission to test it.</label>
+<div id="message" class="message"></div>
+
+<section class="cards">
+<div class="card"><span>Pages Crawled</span><strong id="pages">0</strong><small>successfully fetched</small></div>
+<div class="card"><span>URLs Discovered</span><strong id="endpoints">0</strong><small>same-origin endpoints</small></div>
+<div class="card"><span>Forms Found</span><strong id="forms">0</strong><small>HTML forms</small></div>
+<div class="card danger"><span>Security Findings</span><strong id="total">0</strong><small>requires review</small></div>
+</section>
+
+<section class="panel crawl-panel"><div class="panel-head"><h2>Live Crawl Results</h2><span id="scanTime">Waiting for scan</span></div><div id="crawlList" class="crawl-list"><div class="empty">Enter an authorized target and start a crawl.</div></div></section>
+
+<section class="grid">
+<div class="panel chart-panel"><div class="panel-head"><h2>Risk Overview</h2></div><canvas id="riskChart"></canvas></div>
+<div class="panel"><div class="panel-head"><h2>Severity</h2></div><div class="severity-list">
+<div><b>HIGH</b><span id="high">0</span></div><div><b>MEDIUM</b><span id="medium">0</span></div><div><b>LOW</b><span id="low">0</span></div><div><b>INFO</b><span id="info">0</span></div>
+</div></div>
+</section>
+
+<section class="panel"><div class="panel-head"><h2>Discovered Endpoints</h2><button class="ghost" onclick="downloadReport()">Download Report</button></div>
+<div class="table-wrap"><table><thead><tr><th>URL</th><th>Status</th><th>Depth</th><th>Type</th></tr></thead><tbody id="endpointTable"><tr><td colspan="4" class="empty">No crawl results.</td></tr></tbody></table></div></section>
+
+<section class="panel"><div class="panel-head"><h2>Security Findings</h2><span class="badge">Defensive checks</span></div><div id="findings" class="findings"><div class="empty">No findings yet.</div></div></section>
+<footer>CyberRecon V2 • Authorized testing only • Same-origin crawling • Rate limited • No exploitation</footer>
+</main></div>
+<script src="/static/app.js"></script>
+</body></html>

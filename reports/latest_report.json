@@ -1,0 +1,415 @@
+{
+  "target": "https://testingurl.dev/",
+  "authorized": true,
+  "started_at": "2026-10-07 23:35:47",
+  "finished_at": "2026-10-07 23:36:05",
+  "pages_crawled": 10,
+  "urls_discovered": 121,
+  "forms_found": 0,
+  "max_pages": 10,
+  "max_depth": 2,
+  "endpoints": [
+    "https://testingurl.dev/",
+    "https://testingurl.dev/ai",
+    "https://testingurl.dev/ai/corpus",
+    "https://testingurl.dev/ai/corpus/articles/1",
+    "https://testingurl.dev/ai/corpus/dataset.json",
+    "https://testingurl.dev/ai/pdf-documents",
+    "https://testingurl.dev/ai/pdf-documents/running-header-footer",
+    "https://testingurl.dev/ai/pdf-documents/table",
+    "https://testingurl.dev/ai/pdf-documents/two-column",
+    "https://testingurl.dev/ai/prompt-injection",
+    "https://testingurl.dev/contact",
+    "https://testingurl.dev/generator",
+    "https://testingurl.dev/generator/cards",
+    "https://testingurl.dev/generator/files",
+    "https://testingurl.dev/generator/images/400/300",
+    "https://testingurl.dev/generator/users",
+    "https://testingurl.dev/http",
+    "https://testingurl.dev/http/anything",
+    "https://testingurl.dev/http/auth/basic",
+    "https://testingurl.dev/http/auth/bearer",
+    "https://testingurl.dev/http/cache",
+    "https://testingurl.dev/http/cookies/get",
+    "https://testingurl.dev/http/cookies/set?name=foo&value=bar",
+    "https://testingurl.dev/http/delay/2",
+    "https://testingurl.dev/http/etag/testing-abc123",
+    "https://testingurl.dev/http/gzip",
+    "https://testingurl.dev/http/headers",
+    "https://testingurl.dev/http/image",
+    "https://testingurl.dev/http/ip",
+    "https://testingurl.dev/http/range/1000",
+    "https://testingurl.dev/http/rate-limit",
+    "https://testingurl.dev/http/redirect-to?url=https://example.com",
+    "https://testingurl.dev/http/redirect/3",
+    "https://testingurl.dev/http/response-headers?X-Test=hello",
+    "https://testingurl.dev/http/status/404",
+    "https://testingurl.dev/http/stream/5",
+    "https://testingurl.dev/http/user-agent",
+    "https://testingurl.dev/mock-data",
+    "https://testingurl.dev/mock-data/albums/docs",
+    "https://testingurl.dev/mock-data/posts/docs",
+    "https://testingurl.dev/mock-data/todos/docs",
+    "https://testingurl.dev/mock-data/users/docs",
+    "https://testingurl.dev/scraping",
+    "https://testingurl.dev/scraping/accessibility/accessible",
+    "https://testingurl.dev/scraping/accessibility/inaccessible",
+    "https://testingurl.dev/scraping/auth/dashboard",
+    "https://testingurl.dev/scraping/auth/login",
+    "https://testingurl.dev/scraping/auth/logout",
+    "https://testingurl.dev/scraping/crawler-directives",
+    "https://testingurl.dev/scraping/crawler-directives/canonical-conflict",
+    "https://testingurl.dev/scraping/crawler-directives/canonical-cross-domain",
+    "https://testingurl.dev/scraping/crawler-directives/canonical-duplicate-a",
+    "https://testingurl.dev/scraping/crawler-directives/canonical-duplicate-b",
+    "https://testingurl.dev/scraping/crawler-directives/canonical-self",
+    "https://testingurl.dev/scraping/crawler-directives/meta-noarchive-nosnippet",
+    "https://testingurl.dev/scraping/crawler-directives/meta-nofollow",
+    "https://testingurl.dev/scraping/crawler-directives/meta-noindex",
+    "https://testingurl.dev/scraping/crawler-directives/x-robots-header",
+    "https://testingurl.dev/scraping/dynamic-elements",
+    "https://testingurl.dev/scraping/ecommerce",
+    "https://testingurl.dev/scraping/ecommerce/category/cameras",
+    "https://testingurl.dev/scraping/ecommerce/category/headphones",
+    "https://testingurl.dev/scraping/ecommerce/category/laptops",
+    "https://testingurl.dev/scraping/ecommerce/category/phones",
+    "https://testingurl.dev/scraping/ecommerce/product/1",
+    "https://testingurl.dev/scraping/ecommerce/product/10",
+    "https://testingurl.dev/scraping/ecommerce/product/11",
+    "https://testingurl.dev/scraping/ecommerce/product/12",
+    "https://testingurl.dev/scraping/ecommerce/product/13",
+    "https://testingurl.dev/scraping/ecommerce/product/14",
+    "https://testingurl.dev/scraping/ecommerce/product/15",
+    "https://testingurl.dev/scraping/ecommerce/product/2",
+    "https://testingurl.dev/scraping/ecommerce/product/3",
+    "https://testingurl.dev/scraping/ecommerce/product/4",
+    "https://testingurl.dev/scraping/ecommerce/product/5",
+    "https://testingurl.dev/scraping/ecommerce/product/6",
+    "https://testingurl.dev/scraping/ecommerce/product/7",
+    "https://testingurl.dev/scraping/ecommerce/product/8",
+    "https://testingurl.dev/scraping/ecommerce/product/9",
+    "https://testingurl.dev/scraping/forms/basic",
+    "https://testingurl.dev/scraping/forms/file-upload",
+    "https://testingurl.dev/scraping/forms/hidden-fields",
+    "https://testingurl.dev/scraping/forms/multi-step",
+    "https://testingurl.dev/scraping/forms/post",
+    "https://testingurl.dev/scraping/frames",
+    "https://testingurl.dev/scraping/hreflang",
+    "https://testingurl.dev/scraping/hreflang/en",
+    "https://testingurl.dev/scraping/infinite-scroll",
+    "https://testingurl.dev/scraping/js-rendered",
+    "https://testingurl.dev/scraping/links/broken",
+    "https://testingurl.dev/scraping/links/circular",
+    "https://testingurl.dev/scraping/links/redirect-chain/5",
+    "https://testingurl.dev/scraping/load-more",
+    "https://testingurl.dev/scraping/markup/clean",
+    "https://testingurl.dev/scraping/markup/data-attrs",
+    "https://testingurl.dev/scraping/markup/div-soup",
+    "https://testingurl.dev/scraping/markup/obfuscated",
+    "https://testingurl.dev/scraping/pagination/offset?start=0&limit=10",
+    "https://testingurl.dev/scraping/pagination/page/1",
+    "https://testingurl.dev/scraping/redirect-mechanisms",
+    "https://testingurl.dev/scraping/redirect-mechanisms/js-redirect",
+    "https://testingurl.dev/scraping/redirect-mechanisms/loop/a",
+    "https://testingurl.dev/scraping/redirect-mechanisms/meta-refresh",
+    "https://testingurl.dev/scraping/structured-data",
+    "https://testingurl.dev/scraping/structured-data/collection",
+    "https://testingurl.dev/scraping/structured-data/faq",
+    "https://testingurl.dev/scraping/structured-data/product-combined",
+    "https://testingurl.dev/scraping/structured-data/product-datalayer",
+    "https://testingurl.dev/scraping/structured-data/product-json-ld",
+    "https://testingurl.dev/scraping/structured-data/product-microdata",
+    "https://testingurl.dev/scraping/structured-data/product-open-graph",
+    "https://testingurl.dev/scraping/structured-data/reviews",
+    "https://testingurl.dev/scraping/tables/nested",
+    "https://testingurl.dev/scraping/tables/simple",
+    "https://testingurl.dev/scraping/tables/sortable",
+    "https://testingurl.dev/scraping/url-structure",
+    "https://testingurl.dev/scraping/url-structure/CaseSensitive",
+    "https://testingurl.dev/scraping/url-structure/base-tag",
+    "https://testingurl.dev/scraping/url-structure/encoded-chars?value=hello%20world",
+    "https://testingurl.dev/scraping/url-structure/query-params?b=2&a=1",
+    "https://testingurl.dev/scraping/url-structure/trailing-slash"
+  ],
+  "pages": [
+    {
+      "url": "https://testingurl.dev/",
+      "depth": 0,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://testingurl.dev/scraping",
+      "depth": 1,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://testingurl.dev/http",
+      "depth": 1,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://testingurl.dev/mock-data",
+      "depth": 1,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://testingurl.dev/generator",
+      "depth": 1,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://testingurl.dev/ai",
+      "depth": 1,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://testingurl.dev/scraping/ecommerce",
+      "depth": 1,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://testingurl.dev/scraping/ecommerce/category/laptops",
+      "depth": 1,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://testingurl.dev/scraping/ecommerce/product/1",
+      "depth": 1,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://testingurl.dev/scraping/structured-data",
+      "depth": 1,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8"
+    }
+  ],
+  "crawl_errors": [],
+  "findings": [
+    {
+      "severity": "Low",
+      "type": "Missing Security Header",
+      "url": "https://testingurl.dev/",
+      "evidence": "X-Content-Type-Options was not observed.",
+      "action": "Set X-Content-Type-Options: nosniff."
+    },
+    {
+      "severity": "Low",
+      "type": "Clickjacking Protection",
+      "url": "https://testingurl.dev/",
+      "evidence": "No X-Frame-Options or CSP frame-ancestors protection observed.",
+      "action": "Use X-Frame-Options or CSP frame-ancestors where appropriate."
+    },
+    {
+      "severity": "Info",
+      "type": "Server Banner",
+      "url": "https://testingurl.dev/",
+      "evidence": "Server header exposed: cloudflare",
+      "action": "Consider minimizing unnecessary server version disclosure."
+    },
+    {
+      "severity": "Low",
+      "type": "Missing Security Header",
+      "url": "https://testingurl.dev/scraping",
+      "evidence": "X-Content-Type-Options was not observed.",
+      "action": "Set X-Content-Type-Options: nosniff."
+    },
+    {
+      "severity": "Low",
+      "type": "Clickjacking Protection",
+      "url": "https://testingurl.dev/scraping",
+      "evidence": "No X-Frame-Options or CSP frame-ancestors protection observed.",
+      "action": "Use X-Frame-Options or CSP frame-ancestors where appropriate."
+    },
+    {
+      "severity": "Info",
+      "type": "Server Banner",
+      "url": "https://testingurl.dev/scraping",
+      "evidence": "Server header exposed: cloudflare",
+      "action": "Consider minimizing unnecessary server version disclosure."
+    },
+    {
+      "severity": "Low",
+      "type": "Missing Security Header",
+      "url": "https://testingurl.dev/http",
+      "evidence": "X-Content-Type-Options was not observed.",
+      "action": "Set X-Content-Type-Options: nosniff."
+    },
+    {
+      "severity": "Low",
+      "type": "Clickjacking Protection",
+      "url": "https://testingurl.dev/http",
+      "evidence": "No X-Frame-Options or CSP frame-ancestors protection observed.",
+      "action": "Use X-Frame-Options or CSP frame-ancestors where appropriate."
+    },
+    {
+      "severity": "Info",
+      "type": "Server Banner",
+      "url": "https://testingurl.dev/http",
+      "evidence": "Server header exposed: cloudflare",
+      "action": "Consider minimizing unnecessary server version disclosure."
+    },
+    {
+      "severity": "Low",
+      "type": "Missing Security Header",
+      "url": "https://testingurl.dev/mock-data",
+      "evidence": "X-Content-Type-Options was not observed.",
+      "action": "Set X-Content-Type-Options: nosniff."
+    },
+    {
+      "severity": "Low",
+      "type": "Clickjacking Protection",
+      "url": "https://testingurl.dev/mock-data",
+      "evidence": "No X-Frame-Options or CSP frame-ancestors protection observed.",
+      "action": "Use X-Frame-Options or CSP frame-ancestors where appropriate."
+    },
+    {
+      "severity": "Info",
+      "type": "Server Banner",
+      "url": "https://testingurl.dev/mock-data",
+      "evidence": "Server header exposed: cloudflare",
+      "action": "Consider minimizing unnecessary server version disclosure."
+    },
+    {
+      "severity": "Low",
+      "type": "Missing Security Header",
+      "url": "https://testingurl.dev/generator",
+      "evidence": "X-Content-Type-Options was not observed.",
+      "action": "Set X-Content-Type-Options: nosniff."
+    },
+    {
+      "severity": "Low",
+      "type": "Clickjacking Protection",
+      "url": "https://testingurl.dev/generator",
+      "evidence": "No X-Frame-Options or CSP frame-ancestors protection observed.",
+      "action": "Use X-Frame-Options or CSP frame-ancestors where appropriate."
+    },
+    {
+      "severity": "Info",
+      "type": "Server Banner",
+      "url": "https://testingurl.dev/generator",
+      "evidence": "Server header exposed: cloudflare",
+      "action": "Consider minimizing unnecessary server version disclosure."
+    },
+    {
+      "severity": "Low",
+      "type": "Missing Security Header",
+      "url": "https://testingurl.dev/ai",
+      "evidence": "X-Content-Type-Options was not observed.",
+      "action": "Set X-Content-Type-Options: nosniff."
+    },
+    {
+      "severity": "Low",
+      "type": "Clickjacking Protection",
+      "url": "https://testingurl.dev/ai",
+      "evidence": "No X-Frame-Options or CSP frame-ancestors protection observed.",
+      "action": "Use X-Frame-Options or CSP frame-ancestors where appropriate."
+    },
+    {
+      "severity": "Info",
+      "type": "Server Banner",
+      "url": "https://testingurl.dev/ai",
+      "evidence": "Server header exposed: cloudflare",
+      "action": "Consider minimizing unnecessary server version disclosure."
+    },
+    {
+      "severity": "Low",
+      "type": "Missing Security Header",
+      "url": "https://testingurl.dev/scraping/ecommerce",
+      "evidence": "X-Content-Type-Options was not observed.",
+      "action": "Set X-Content-Type-Options: nosniff."
+    },
+    {
+      "severity": "Low",
+      "type": "Clickjacking Protection",
+      "url": "https://testingurl.dev/scraping/ecommerce",
+      "evidence": "No X-Frame-Options or CSP frame-ancestors protection observed.",
+      "action": "Use X-Frame-Options or CSP frame-ancestors where appropriate."
+    },
+    {
+      "severity": "Info",
+      "type": "Server Banner",
+      "url": "https://testingurl.dev/scraping/ecommerce",
+      "evidence": "Server header exposed: cloudflare",
+      "action": "Consider minimizing unnecessary server version disclosure."
+    },
+    {
+      "severity": "Low",
+      "type": "Missing Security Header",
+      "url": "https://testingurl.dev/scraping/ecommerce/category/laptops",
+      "evidence": "X-Content-Type-Options was not observed.",
+      "action": "Set X-Content-Type-Options: nosniff."
+    },
+    {
+      "severity": "Low",
+      "type": "Clickjacking Protection",
+      "url": "https://testingurl.dev/scraping/ecommerce/category/laptops",
+      "evidence": "No X-Frame-Options or CSP frame-ancestors protection observed.",
+      "action": "Use X-Frame-Options or CSP frame-ancestors where appropriate."
+    },
+    {
+      "severity": "Info",
+      "type": "Server Banner",
+      "url": "https://testingurl.dev/scraping/ecommerce/category/laptops",
+      "evidence": "Server header exposed: cloudflare",
+      "action": "Consider minimizing unnecessary server version disclosure."
+    },
+    {
+      "severity": "Low",
+      "type": "Missing Security Header",
+      "url": "https://testingurl.dev/scraping/ecommerce/product/1",
+      "evidence": "X-Content-Type-Options was not observed.",
+      "action": "Set X-Content-Type-Options: nosniff."
+    },
+    {
+      "severity": "Low",
+      "type": "Clickjacking Protection",
+      "url": "https://testingurl.dev/scraping/ecommerce/product/1",
+      "evidence": "No X-Frame-Options or CSP frame-ancestors protection observed.",
+      "action": "Use X-Frame-Options or CSP frame-ancestors where appropriate."
+    },
+    {
+      "severity": "Info",
+      "type": "Server Banner",
+      "url": "https://testingurl.dev/scraping/ecommerce/product/1",
+      "evidence": "Server header exposed: cloudflare",
+      "action": "Consider minimizing unnecessary server version disclosure."
+    },
+    {
+      "severity": "Low",
+      "type": "Missing Security Header",
+      "url": "https://testingurl.dev/scraping/structured-data",
+      "evidence": "X-Content-Type-Options was not observed.",
+      "action": "Set X-Content-Type-Options: nosniff."
+    },
+    {
+      "severity": "Low",
+      "type": "Clickjacking Protection",
+      "url": "https://testingurl.dev/scraping/structured-data",
+      "evidence": "No X-Frame-Options or CSP frame-ancestors protection observed.",
+      "action": "Use X-Frame-Options or CSP frame-ancestors where appropriate."
+    },
+    {
+      "severity": "Info",
+      "type": "Server Banner",
+      "url": "https://testingurl.dev/scraping/structured-data",
+      "evidence": "Server header exposed: cloudflare",
+      "action": "Consider minimizing unnecessary server version disclosure."
+    }
+  ],
+  "summary": {
+    "high": 0,
+    "medium": 0,
+    "low": 20,
+    "info": 10
+  }
+}
